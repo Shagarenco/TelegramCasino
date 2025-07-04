@@ -1,0 +1,1 @@
+mongodb+srv://feflermax:f1e2f3l4e5r6@telegramcasino.hwo4khq.mongodb.net/?retryWrites=true&w=majority&appName=TelegramCasino

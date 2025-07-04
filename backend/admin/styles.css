@@ -1,0 +1,68 @@
+/* backend/admin/styles.css */
+
+body {
+  background-color: #121212;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+}
+
+h1, h2 {
+  color: #ffffff;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  background-color: #222;
+  color: white;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.btn-success {
+  background-color: green;
+  color: white;
+}
+
+.btn-primary {
+  background-color: blue;
+  color: white;
+}
+
+.btn-warning {
+  background-color: orange;
+  color: white;
+}
+
+#userProfile {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+}
+
+.balance {
+  color: limegreen;
+  font-weight: bold;
+}

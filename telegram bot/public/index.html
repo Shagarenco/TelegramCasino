@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Telegram Casino</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-dark text-white">
+
+<div class="container mt-4">
+  <h1 class="text-center">Telegram Casino</h1>
+
+  <div class="d-flex justify-content-center mt-4">
+    <button class="btn btn-success me-2" onclick="playSlots()">Play Slots</button>
+    <button class="btn btn-primary me-2" onclick="checkBalance()">Check Balance</button>
+    <button class="btn btn-warning" onclick="showReferrals()">Invite User</button>
+  </div>
+
+  <div id="gameArea" class="mt-4 d-none">
+    <h3>Slot Game</h3>
+    <p>Spiel wird geladen...</p>
+  </div>
+
+  <div id="balanceArea" class="mt-4 d-none card">
+    <h3>Your Balance</h3>
+    <p>Your balance is: <span id="balanceValue"></span></p>
+  </div>
+
+  <div id="referralArea" class="mt-4 d-none card">
+    <h3>Referral System</h3>
+    <p>Your referral ID: <span id="referralId">7fjgck22t</span></p>
+    <input type="text" id="newUserTelegramId" placeholder="Enter new user ID" class="form-control mb-2" />
+    <button class="btn btn-info w-100" onclick="inviteUser()">Invite User</button>
+    <p class="mt-2">Your earnings: <span id="referralEarnings">0</span></p>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

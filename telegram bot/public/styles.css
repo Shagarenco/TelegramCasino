@@ -1,0 +1,65 @@
+/* telegram-bot/public/styles.css */
+
+body {
+  background-color: #121212;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1, h2 {
+  text-align: center;
+  color: white;
+}
+
+.card {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.btn-success {
+  background-color: green;
+  color: white;
+}
+
+.btn-primary {
+  background-color: blue;
+  color: white;
+}
+
+.btn-warning {
+  background-color: orange;
+  color: white;
+}
+
+.balance {
+  color: limegreen;
+  font-weight: bold;
+}
+
+.referral-id {
+  color: yellow;
+  font-weight: bold;
+}
